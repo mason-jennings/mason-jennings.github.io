@@ -4,7 +4,7 @@ description: >-
   Revolve - Multipurpose Business & Corporate Jekyll Template Jekyll Theme For Mobile Apps Download Landing Page And Blogging.
 
 # Because you chose option A:
-url: "https://<mason-jennings>.github.io"
+url: "https://mason-jennings.github.io"
 baseurl: ""   # IMPORTANT: must be empty for main GitHub Pages domain
 
 permalink: "/:title"
