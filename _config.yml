@@ -1,0 +1,79 @@
+title: "Revolve - Multipurpose Business & Corporate Jekyll Template"
+email: "rubel2585@gmail.com"
+description: >-
+  Revolve - Multipurpose Business & Corporate Jekyll Template Jekyll Theme For Mobile Apps Download Landing Page And Blogging.
+
+# Because you chose option A:
+url: "https://<mason-jennings>.github.io"
+baseurl: ""   # IMPORTANT: must be empty for main GitHub Pages domain
+
+permalink: "/:title"
+
+facebook_url: "https://www.facebook.com/rubel.hossain.31105"
+twitter_url: "https://twitter.com/tryghost"
+linkedin_url: "https://www.linkedin.com/rubel8525"
+pinterest_url: "https://www.pinterest.com/rubel8525"
+
+site_logo: "/assets/images/logo.png"
+white_logo: "/assets/images/logo-w.png"
+
+mailchimp_list: "https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&id=342411fb35"
+
+copyright_text: "&copy; Copyright all reserved to Themefisher.com - 2020"
+
+author_info:
+  - name: "Themefisher"
+    designation: "Travel Blogger"
+    bio: "I'm Liam, last year I decided to quit my job and travel the world. You can follow my journey on this blog!"
+    website: "https://themefisher.com/"
+    image: "/assets/images/author.jpg"
+    signature: "/assets/images/liammason.png"
+    facebook_url: "https://www.facebook.com/rubel.hossain.31105"
+    twitter_url: "https://twitter.com/rubel8525"
+    instagram_url: "https://www.instagram.com/rubel8525"
+    youtube_url: "https://www.youtube.com/user/rubel2585"
+    pinterest_url: "https://www.pinterest.com/rubel8525/"
+
+markdown: kramdown
+
+# Plugins (GitHub Pages cannot run these directly)
+plugins:
+  - jekyll-feed
+  - jekyll-paginate-v2
+  - jekyll-archives
+
+########################################################
+# Pagination (requires GitHub Actions)
+pagination:
+  enabled: true
+  debug: false
+  collection: "posts"
+  per_page: 12
+  permalink: "/pages/:num/"
+  title: ":title - page :num"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
+  category: "posts"
+  tag: ""
+  locale: ""
+  trail:
+    before: 2
+    after: 2
+  extension: "html"
+  indexpage: "index"
+
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
+
+jekyll-archives:
+  enabled: all
+  layout: category
+  permalinks:
+    category: "/category/:name/"
+
+feed:
+  collections:
+    posts:
+      path: "/index.xml"
